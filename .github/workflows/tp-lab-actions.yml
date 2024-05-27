@@ -8,9 +8,10 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
       - name: Build and run in Docker container
-        container:
-          image: "${{github.workspace}}/Dockerfile"
-          volumes:
-            -${{github.workspace}}/logs:/home/logs
-        run: make test
+        run: docker build -t solver_v1 ${{github.workspace}}
+      - name: Run tests
+        run: docker run -it -v ${{github.workspace}}/logs:/home/logs solver_v1
+      - name: Check container
+        run: cat ${{github.workspace}}/logs/log.txt
+
 
