@@ -1,5 +1,5 @@
 name: tp-lab-actions
-run-name: ${{ github.actor }} is running TPLab04
+run-name: ${{ github.actor }} is running docker container
 on: [push]
 jobs:
   test:
