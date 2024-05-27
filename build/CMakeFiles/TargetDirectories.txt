@@ -1,0 +1,7 @@
+/home/bu5y/Bu5y5leeper/workspace/projects/lab03_dz/build/CMakeFiles/print.dir
+/home/bu5y/Bu5y5leeper/workspace/projects/lab03_dz/build/CMakeFiles/edit_cache.dir
+/home/bu5y/Bu5y5leeper/workspace/projects/lab03_dz/build/CMakeFiles/rebuild_cache.dir
+/home/bu5y/Bu5y5leeper/workspace/projects/lab03_dz/build/CMakeFiles/list_install_components.dir
+/home/bu5y/Bu5y5leeper/workspace/projects/lab03_dz/build/CMakeFiles/install.dir
+/home/bu5y/Bu5y5leeper/workspace/projects/lab03_dz/build/CMakeFiles/install/local.dir
+/home/bu5y/Bu5y5leeper/workspace/projects/lab03_dz/build/CMakeFiles/install/strip.dir

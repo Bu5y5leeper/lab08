@@ -1,0 +1,16 @@
+name: tp-lab-actions
+run-name: ${{ github.actor }} is running TPLab04
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: Build and run in Docker container
+        container:
+          image: "${{github.workspace}}/Dockerfile"
+          volumes:
+            -${{github.workspace}}/logs:/home/logs
+        run: make test
+

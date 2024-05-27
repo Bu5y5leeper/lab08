@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/bu5y/Bu5y5leeper/workspace/projects/lab03_dz/build",
+  "command": "/usr/bin/g++ -I/home/bu5y/Bu5y5leeper/workspace/projects/lab03_dz/include -g -std=gnu++11 -o CMakeFiles/print.dir/hello_world_application/hello_world.cpp.o -c /home/bu5y/Bu5y5leeper/workspace/projects/lab03_dz/hello_world_application/hello_world.cpp",
+  "file": "/home/bu5y/Bu5y5leeper/workspace/projects/lab03_dz/hello_world_application/hello_world.cpp"
+}
+]
