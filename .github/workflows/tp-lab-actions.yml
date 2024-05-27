@@ -10,7 +10,7 @@ jobs:
       - name: Build and run in Docker container
         run: docker build -t solver_v1 ${{github.workspace}}
       - name: Run tests
-        run: docker run -it -v ${{github.workspace}}/logs:/home/logs solver_v1
+        run: docker run -v ${{github.workspace}}/logs:/home/logs solver_v1
       - name: Check container
         run: cat ${{github.workspace}}/logs/log.txt
 
